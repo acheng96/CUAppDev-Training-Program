@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25760FDA-EDA6-43B2-8A67-7D49707477FA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Project #5 (CUAppDev)</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE2173BEF70B8EB73CA8FE0A180115672848322A</key>
+		<string>https://github.com/acheng96/Contacts-List-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project #5 (CUAppDev).xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE2173BEF70B8EB73CA8FE0A180115672848322A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/acheng96/Contacts-List-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE2173BEF70B8EB73CA8FE0A180115672848322A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE2173BEF70B8EB73CA8FE0A180115672848322A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project%20%235%20(CUAppDev)</string>
+		</dict>
+	</array>
+</dict>
+</plist>

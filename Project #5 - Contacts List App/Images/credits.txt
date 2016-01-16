@@ -1,0 +1,5 @@
+The emailIcon, messageIcon, and phoneIcon image was downloaded from the Lecture 5 Assets from the CUAppDev Training program.
+
+The contactIcon and person images were downloaded from the Ionicons icon set licensed by MIT License. Link: https://www.iconfinder.com/icons/211731/contact_outline_icon#size=512
+
+The closeIcon was downloaded from the Eightyshades icon set by Victor Erixon. Link: https://www.iconfinder.com/icons/106227/close_icon#size=256

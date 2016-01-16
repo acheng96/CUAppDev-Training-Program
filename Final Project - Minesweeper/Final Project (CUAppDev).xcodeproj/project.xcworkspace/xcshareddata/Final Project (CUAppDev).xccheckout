@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DFABB259-8C94-4843-B015-7EDC104292FF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Final Project (CUAppDev)</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8DC9E7E044336378D4C7D36EA4E6F22EF94A7E20</key>
+		<string>https://github.com/acheng96/Minesweeper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Final Project (CUAppDev).xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8DC9E7E044336378D4C7D36EA4E6F22EF94A7E20</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/acheng96/Minesweeper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8DC9E7E044336378D4C7D36EA4E6F22EF94A7E20</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DC9E7E044336378D4C7D36EA4E6F22EF94A7E20</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Final%20Project%20(CUAppDev)</string>
+		</dict>
+	</array>
+</dict>
+</plist>

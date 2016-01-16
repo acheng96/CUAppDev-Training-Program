@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Project__2__CUAppDev_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student GPA " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SD3-N9-Vr8">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="ICw-T4-H73"/>
+                                    <constraint firstAttribute="height" constant="30" id="PBW-W9-MvB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ICw-T4-H73"/>
+                                        <exclude reference="PBW-W9-MvB"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="50" y="256" width="300" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="ICw-T4-H73"/>
+                                        <include reference="PBW-W9-MvB"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student name " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3MU-Bt-w9q">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="1wa-sM-BDl"/>
+                                    <constraint firstAttribute="height" constant="30" id="WLB-6y-3fk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1wa-sM-BDl"/>
+                                        <exclude reference="WLB-6y-3fk"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="50" y="142" width="300" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="1wa-sM-BDl"/>
+                                        <include reference="WLB-6y-3fk"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student year" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CJX-8R-J1s">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="x3E-Wi-kho"/>
+                                    <constraint firstAttribute="width" constant="300" id="yfL-k5-i2Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="x3E-Wi-kho"/>
+                                        <exclude reference="yfL-k5-i2Z"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="50" y="180" width="300" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="x3E-Wi-kho"/>
+                                        <include reference="yfL-k5-i2Z"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="student" translatesAutoresizingMaskIntoConstraints="NO" id="eeQ-Ag-eQW">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="apz-LJ-Hdn">
+                                        <variation key="widthClass=compact" constant="100"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="100" id="sAK-gi-uO0">
+                                        <variation key="widthClass=compact" constant="100"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="apz-LJ-Hdn"/>
+                                        <exclude reference="sAK-gi-uO0"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="150" y="9" width="100" height="100"/>
+                                    <mask key="constraints">
+                                        <include reference="apz-LJ-Hdn"/>
+                                        <include reference="sAK-gi-uO0"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bY-p0-Vaw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MnV-ha-J9T"/>
+                                    <constraint firstAttribute="width" constant="30" id="fBf-hz-JKd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="15"/>
+                                <state key="normal" image="addButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="MnV-ha-J9T"/>
+                                        <exclude reference="fBf-hz-JKd"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="185" y="332" width="30" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="MnV-ha-J9T"/>
+                                        <include reference="fBf-hz-JKd"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="addStudentButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nv1-hl-PlC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sw-IG-T3x">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.42783190250000003" blue="0.4329356318" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="119" y="419" width="162" height="17"/>
+                                </variation>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aH-j3-wEu">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="2HM-gG-M2u"/>
+                                    <constraint firstAttribute="height" constant="200" id="g7J-jm-Qnu">
+                                        <variation key="widthClass=compact" constant="150"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2HM-gG-M2u"/>
+                                        <exclude reference="g7J-jm-Qnu"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="50" y="444" width="300" height="128"/>
+                                    <mask key="constraints">
+                                        <include reference="2HM-gG-M2u"/>
+                                        <include reference="g7J-jm-Qnu"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="E9u-0I-5of">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <segments>
+                                    <segment title="Name"/>
+                                    <segment title="Year"/>
+                                    <segment title="Asc. GPA"/>
+                                    <segment title="Des. GPA"/>
+                                </segments>
+                                <color key="tintColor" red="0.0" green="0.42783190249847047" blue="0.43293563179347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="50" y="376" width="300" height="29"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sortControlButton:" destination="vXZ-lx-hvc" eventType="valueChanged" id="cRa-AH-XMX"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add student" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lB4-5c-wnB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.42783190250000003" blue="0.4329356318" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="149" y="117" width="102" height="17"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student birth date " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="96Y-Va-uyE">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Jrg-CW-spk"/>
+                                    <constraint firstAttribute="width" constant="300" id="dmd-Fi-rc4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Jrg-CW-spk"/>
+                                        <exclude reference="dmd-Fi-rc4"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="50" y="294" width="300" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="Jrg-CW-spk"/>
+                                        <include reference="dmd-Fi-rc4"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="datePicker:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="paG-6m-IOP"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student major " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CCF-Sd-g4i">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="1uj-on-xsV"/>
+                                    <constraint firstAttribute="height" constant="30" id="gd9-mI-Xnl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1uj-on-xsV"/>
+                                        <exclude reference="gd9-mI-Xnl"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="50" y="218" width="300" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="1uj-on-xsV"/>
+                                        <include reference="gd9-mI-Xnl"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65868118458132052" green="0.82396673387096775" blue="0.83555947580645162" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3MU-Bt-w9q" firstAttribute="top" secondItem="lB4-5c-wnB" secondAttribute="bottom" constant="8" id="1qK-as-iOC">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="lB4-5c-wnB" firstAttribute="top" secondItem="eeQ-Ag-eQW" secondAttribute="bottom" constant="8" id="7tR-Jw-yei">
+                                <variation key="widthClass=compact" constant="2"/>
+                            </constraint>
+                            <constraint firstItem="E9u-0I-5of" firstAttribute="top" secondItem="7bY-p0-Vaw" secondAttribute="bottom" constant="4" id="86z-TD-EAL">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="96Y-Va-uyE" secondAttribute="centerX" id="Alf-ek-YeK"/>
+                            <constraint firstAttribute="centerX" secondItem="7bY-p0-Vaw" secondAttribute="centerX" constant="-0.5" id="Bh3-VA-REw"/>
+                            <constraint firstAttribute="centerX" secondItem="CJX-8R-J1s" secondAttribute="centerX" id="C9u-kh-yz0"/>
+                            <constraint firstAttribute="centerX" secondItem="SD3-N9-Vr8" secondAttribute="centerX" id="HRc-pC-kLG"/>
+                            <constraint firstAttribute="centerX" secondItem="9aH-j3-wEu" secondAttribute="centerX" id="KcO-rb-WL8"/>
+                            <constraint firstAttribute="centerX" secondItem="CCF-Sd-g4i" secondAttribute="centerX" id="Q0R-xc-JNr"/>
+                            <constraint firstItem="CJX-8R-J1s" firstAttribute="top" secondItem="3MU-Bt-w9q" secondAttribute="bottom" constant="10" id="VRY-E6-hSR"/>
+                            <constraint firstAttribute="centerX" secondItem="lB4-5c-wnB" secondAttribute="centerX" constant="-0.5" id="WEF-or-dhJ"/>
+                            <constraint firstItem="eeQ-Ag-eQW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="YGg-DD-gYW">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="1sw-IG-T3x" secondAttribute="centerX" constant="-0.5" id="Yhv-gG-qtt">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="E9u-0I-5of" secondAttribute="centerX" constant="-0.5" id="apx-fq-AY5"/>
+                            <constraint firstItem="SD3-N9-Vr8" firstAttribute="top" secondItem="CCF-Sd-g4i" secondAttribute="bottom" constant="10" id="fxk-hv-C9l"/>
+                            <constraint firstAttribute="centerX" secondItem="3MU-Bt-w9q" secondAttribute="centerX" id="ohb-8E-wq4"/>
+                            <constraint firstItem="7bY-p0-Vaw" firstAttribute="top" secondItem="96Y-Va-uyE" secondAttribute="bottom" constant="8" id="qeX-yY-Nsb">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9aH-j3-wEu" secondAttribute="bottom" constant="50" id="qnf-J3-aDg">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="eeQ-Ag-eQW" secondAttribute="centerX" id="tbo-eJ-kfK"/>
+                            <constraint firstItem="96Y-Va-uyE" firstAttribute="top" secondItem="SD3-N9-Vr8" secondAttribute="bottom" constant="8" id="uOQ-bV-0PS">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="9aH-j3-wEu" firstAttribute="top" secondItem="1sw-IG-T3x" secondAttribute="bottom" constant="14" id="v44-Ve-Pcw">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="CCF-Sd-g4i" firstAttribute="top" secondItem="CJX-8R-J1s" secondAttribute="bottom" constant="10" id="wqS-Fm-tKm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="SD3-N9-Vr8"/>
+                                <exclude reference="3MU-Bt-w9q"/>
+                                <exclude reference="CJX-8R-J1s"/>
+                                <exclude reference="eeQ-Ag-eQW"/>
+                                <exclude reference="7bY-p0-Vaw"/>
+                                <exclude reference="1sw-IG-T3x"/>
+                                <exclude reference="9aH-j3-wEu"/>
+                                <exclude reference="E9u-0I-5of"/>
+                                <exclude reference="lB4-5c-wnB"/>
+                                <exclude reference="96Y-Va-uyE"/>
+                                <exclude reference="CCF-Sd-g4i"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Yhv-gG-qtt"/>
+                                <exclude reference="qnf-J3-aDg"/>
+                                <exclude reference="1qK-as-iOC"/>
+                                <exclude reference="ohb-8E-wq4"/>
+                                <exclude reference="Alf-ek-YeK"/>
+                                <exclude reference="uOQ-bV-0PS"/>
+                                <exclude reference="Q0R-xc-JNr"/>
+                                <exclude reference="wqS-Fm-tKm"/>
+                                <exclude reference="C9u-kh-yz0"/>
+                                <exclude reference="VRY-E6-hSR"/>
+                                <exclude reference="HRc-pC-kLG"/>
+                                <exclude reference="fxk-hv-C9l"/>
+                                <exclude reference="7tR-Jw-yei"/>
+                                <exclude reference="WEF-or-dhJ"/>
+                                <exclude reference="Bh3-VA-REw"/>
+                                <exclude reference="qeX-yY-Nsb"/>
+                                <exclude reference="86z-TD-EAL"/>
+                                <exclude reference="apx-fq-AY5"/>
+                                <exclude reference="KcO-rb-WL8"/>
+                                <exclude reference="v44-Ve-Pcw"/>
+                                <exclude reference="YGg-DD-gYW"/>
+                                <exclude reference="tbo-eJ-kfK"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="SD3-N9-Vr8"/>
+                                <include reference="3MU-Bt-w9q"/>
+                                <include reference="CJX-8R-J1s"/>
+                                <include reference="eeQ-Ag-eQW"/>
+                                <include reference="7bY-p0-Vaw"/>
+                                <include reference="1sw-IG-T3x"/>
+                                <include reference="9aH-j3-wEu"/>
+                                <include reference="E9u-0I-5of"/>
+                                <include reference="lB4-5c-wnB"/>
+                                <include reference="96Y-Va-uyE"/>
+                                <include reference="CCF-Sd-g4i"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Yhv-gG-qtt"/>
+                                <include reference="qnf-J3-aDg"/>
+                                <include reference="1qK-as-iOC"/>
+                                <include reference="ohb-8E-wq4"/>
+                                <include reference="Alf-ek-YeK"/>
+                                <include reference="uOQ-bV-0PS"/>
+                                <include reference="Q0R-xc-JNr"/>
+                                <include reference="wqS-Fm-tKm"/>
+                                <include reference="C9u-kh-yz0"/>
+                                <include reference="VRY-E6-hSR"/>
+                                <include reference="HRc-pC-kLG"/>
+                                <include reference="fxk-hv-C9l"/>
+                                <include reference="7tR-Jw-yei"/>
+                                <include reference="WEF-or-dhJ"/>
+                                <include reference="Bh3-VA-REw"/>
+                                <include reference="qeX-yY-Nsb"/>
+                                <include reference="86z-TD-EAL"/>
+                                <include reference="apx-fq-AY5"/>
+                                <include reference="KcO-rb-WL8"/>
+                                <include reference="v44-Ve-Pcw"/>
+                                <include reference="YGg-DD-gYW"/>
+                                <include reference="tbo-eJ-kfK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="birthDateField" destination="96Y-Va-uyE" id="xM4-Wi-xXd"/>
+                        <outlet property="gpaField" destination="SD3-N9-Vr8" id="KuP-6Q-u4m"/>
+                        <outlet property="majorField" destination="CCF-Sd-g4i" id="5cX-6T-VKt"/>
+                        <outlet property="nameField" destination="3MU-Bt-w9q" id="a8c-Xr-FR1"/>
+                        <outlet property="sortController" destination="E9u-0I-5of" id="vMY-7N-rJW"/>
+                        <outlet property="statusLabel" destination="lB4-5c-wnB" id="kz7-tB-zoV"/>
+                        <outlet property="studentInfoView" destination="9aH-j3-wEu" id="mpT-fh-VwI"/>
+                        <outlet property="yearField" destination="CJX-8R-J1s" id="n2x-fR-Pm9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.5" y="231"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="addButton" width="256" height="256"/>
+        <image name="student" width="256" height="256"/>
+    </resources>
+</document>

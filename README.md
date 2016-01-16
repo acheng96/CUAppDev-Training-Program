@@ -6,9 +6,9 @@ In Fall 2014, I participated in the inaugural Developer in Training program host
 
 ## Projects
 
-**Project #1:** Username and Password App  
-**Project #2:** Student Info Storage App  
-**Project #3:** Shape Arenas App  
-**Project #4:** Friends & Enemies Display App  
-**Project #5:** Contacts List App  
-**Final Project:** Minesweeper  
+- Project #1: Username and Password App  
+- Project #2: Student Info Storage App  
+- Project #3: Shape Arenas App  
+- Project #4: Friends & Enemies Display App  
+- Project #5: Contacts List App  
+- Final Project: Minesweeper  

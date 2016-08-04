@@ -11,4 +11,4 @@ In Fall 2014, I participated in the inaugural Developer in Training program host
 - Project #3: Shape Arenas App  
 - Project #4: Friends & Enemies Display App  
 - Project #5: Contacts List App  
-- Final Project: Minesweeper  
+- Final Project: Minesweeper App
